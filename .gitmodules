@@ -1,0 +1,3 @@
+[submodule "jsPDF-AutoTable"]
+	path = jsPDF-AutoTable
+	url = https://github.com/someatoms/jsPDF-AutoTable

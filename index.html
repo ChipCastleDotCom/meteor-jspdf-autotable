@@ -1,62 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Meteor-jspdf-autotable by ChipCastleDotCom</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <title>Meteor-jspdf-autotable by ChipCastleDotCom</title>
   </head>
+
   <body>
+    <div id="container">
+      <div class="inner">
 
-      <header>
-        <h1>Meteor-jspdf-autotable</h1>
-        <p>Meteor package for AutoTable plugin to jsPDF</p>
-      </header>
+        <header>
+          <h1>Meteor-jspdf-autotable</h1>
+          <h2>Meteor package for AutoTable plugin to jsPDF</h2>
+        </header>
 
-      <div id="banner">
-        <span id="logo"></span>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/ChipCastleDotCom/meteor-jspdf-autotable/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/ChipCastleDotCom/meteor-jspdf-autotable/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/ChipCastleDotCom/meteor-jspdf-autotable" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-        <a href="https://github.com/ChipCastleDotCom/meteor-jspdf-autotable" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/ChipCastleDotCom/meteor-jspdf-autotable/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/ChipCastleDotCom/meteor-jspdf-autotable/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
+        <hr>
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>
+        <section id="main_content">
+          <h1>
 <a id="meteor-jspdf-autotable" class="anchor" href="#meteor-jspdf-autotable" aria-hidden="true"><span class="octicon octicon-link"></span></a>meteor-jspdf-autotable</h1>
 
 <p>Meteor package for <a href="https://github.com/someatoms/jsPDF-AutoTable">AutoTable plugin to jsPDF</a>.</p>
 
-<p>This repo is simply a wrapper to make the AutoTable plugin available on
-<a href="https://atmospherejs.com/chipcastledotcom/meteor-jspdf?q=chipcastledotcom">Atmosphere</a> 
-as a Meteor package.</p>
+<h2>
+<a id="background" class="anchor" href="#background" aria-hidden="true"><span class="octicon octicon-link"></span></a>BACKGROUND</h2>
 
-<p>For usage, please visit the documentation for the plugin.</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/ChipCastleDotCom">ChipCastleDotCom</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+<p>This repo is simply a wrapper to make the AutoTable plugin available on
+<a href="https://atmospherejs.com/chipcastledotcom/meteor-jspdf?q=chipcastledotcom">Atmosphere</a> as a Meteor package.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>INSTALLATION</h2>
+
+<p>Change into your meteor project's directory and install the package:</p>
+
+<pre><code>meteor add chipcastledotcom:jspdf-autotable
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>USAGE</h2>
+
+<p>For usage, please <a href="https://github.com/someatoms/jsPDF-AutoTable">AutoTable plugin to jsPDF</a> visit the documentation for the plugin.</p>
+
+<h2>
+<a id="social" class="anchor" href="#social" aria-hidden="true"><span class="octicon octicon-link"></span></a>SOCIAL</h2>
+
+<p>This meteor package was created by <a href="http://chipcastle.com">CHIP CASTLE DOT COM, INC.</a>.</p>
+
+<ul>
+<li><a href="https://twitter.com/chipcastle">Twitter</a></li>
+<li><a href="https://github.com/chipcastledotcom">Github for CHIP CASTLE DOT COM, INC.</a></li>
+<li><a href="https://github.com/chip">Github for chip</a></li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>LICENSE</h2>
+
+<p>The MIT License (MIT)</p>
+
+<p>Copyright (c) 2015 Chip Castle Dot Com, Inc.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+        </section>
+
+        <footer>
+          Meteor-jspdf-autotable is maintained by <a href="https://github.com/ChipCastleDotCom">ChipCastleDotCom</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+                  <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -67,5 +109,7 @@ as a Meteor package.</p>
             } catch(err) {}
           </script>
 
+      </div>
+    </div>
   </body>
 </html>

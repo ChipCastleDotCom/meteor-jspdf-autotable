@@ -12,6 +12,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.use('chipcastledotcom:jspdf', 'client');
+  api.use('chipcastledotcom:jspdf@0.0.1', 'client');
   api.addFiles('jsPDF-AutoTable/jspdf.plugin.autotable.js', 'client');
 });

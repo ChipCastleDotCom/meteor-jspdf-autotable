@@ -1,4 +1,4 @@
-# meteor-jsPDF-AutoTable
+# meteor-jspdf-autotable
 
 Meteor package for [AutoTable plugin to jsPDF](https://github.com/someatoms/jsPDF-AutoTable).
 

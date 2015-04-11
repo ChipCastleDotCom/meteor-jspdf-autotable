@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'chipcastledotcom:meteor-jspdf-autotable',
+  name: 'chipcastledotcom:jspdf-autotable',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Meteor package for AutoTable plugin to jsPDF',
@@ -12,6 +12,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.use('chipcastledotcom:meteor-jspdf@0.0.5', 'client');
+  api.use('chipcastledotcom:jspdf', 'client');
   api.addFiles('jsPDF-AutoTable/jspdf.plugin.autotable.js', 'client');
 });

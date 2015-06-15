@@ -1,3 +1,8 @@
+# THIS PACKAGE IS DEPRECATED IN FAVOR OF jspdf:autotable
+
+Please review the [documentation for jspdf:autotable](https://atmospherejs.com/jspdf/autotable).
+
+`
 # meteor-jspdf-autotable
 
 Meteor package for [AutoTable plugin to jsPDF](https://github.com/someatoms/jsPDF-AutoTable).
@@ -14,7 +19,7 @@ as a Meteor package.
 
 Change into your meteor project's directory and install the package:
 
-    meteor add chipcastledotcom:jspdf-autotable
+    meteor add jspdf:autotable
 
 
 ## USAGE
